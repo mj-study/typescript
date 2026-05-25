@@ -39,7 +39,7 @@ const obj: C  = {
 ## extends = 부분집합 관계
 ```ts
 type A = {name: string};
-type B = {name: string, age: number} ;
+type B = {name: string, age: number} ;₩
 
 // B는 A의 부분집합
 const b:B = {name: 'kim', age: 30};
